@@ -1,0 +1,69 @@
+.Signup_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+  background-color: transparent;
+}
+.Signup_box {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 35%;
+  padding: 20px 0px 18px 0px;
+  border-radius: 5px;
+  background-clip: padding-box;
+}
+.Signup_box_row1 {
+  font-size: x-large;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+.Signup_box_row1 label{
+  padding: 10px;
+}
+.Signup_box_row2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: rgb(46, 38, 38);
+  
+}
+.Signup_box_row2 label{
+  padding-top: 10px;
+  width: 100%;
+}
+.Buttons button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+  color: white;
+  background-color: orange;
+  font-size: medium;
+  border-radius: 28px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.Signup_box_row4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(49, 44, 44);
+}
+.Signup_box_row3 {
+  color: rgb(49, 44, 44);
+  
+}
+.Line{
+  display: flex;
+  flex-direction:column;
+  margin: 10px;
+  
+}
+.Footer{
+  border-top: 1px solid #dee2e6;
+}
